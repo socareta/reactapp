@@ -8,6 +8,7 @@ In the project directory, you can run:
 
 - Git Clone 
 - Cd reactapp
+- Git flow init and make sure on develop branch
 - NPM i / npm install
 - NPM start
 
@@ -16,6 +17,26 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+##  Install  Git flow
+### Install
+
+### OSX - Homebrew
+```
+$ brew install git-flow
+```
+
+### OSX - Macports
+```
+$ ports install git-flow
+```
+### Linux
+```
+$ apt-get install git-flow
+```
+### Windows (Cygwin)
+```
+$ wget -q -O - --no-check-certificate https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | bash
+```
 
 ### `npm test`
 
